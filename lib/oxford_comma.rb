@@ -3,6 +3,6 @@ def oxford_comma(array)
     joined = array.join(" and ")
   else
     joined = array.join(", ")
-    joined.insert(14, " and ")
+    joined.insert(14, "and ")
   end
 end
